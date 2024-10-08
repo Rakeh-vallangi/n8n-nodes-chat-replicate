@@ -2,7 +2,12 @@
 	"name": "n8n-nodes-replicate",
 	"version": "0.1.2",
 	"description": "A n8n node for replicate.com",
-	"keywords": ["n8n-community-node-package", "replicate", "ai", "n8n"],
+	"keywords": [
+		"n8n-community-node-package",
+		"replicate",
+		"ai",
+		"n8n"
+	],
 	"license": "MIT",
 	"homepage": "",
 	"author": {
@@ -22,14 +27,21 @@
 		"lintfix": "eslint nodes credentials package.json --fix",
 		"prepublishOnly": "npm run build && npm run lint -c .eslintrc.prepublish.js nodes credentials package.json"
 	},
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"n8n": {
 		"n8nNodesApiVersion": 1,
-		"credentials": ["dist/credentials/ReplicateApi.credentials.js"],
-		"nodes": ["dist/nodes/ReplicateGen/ReplicateGen.node.js"]
+		"credentials": [
+			"dist/credentials/ReplicateApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/ReplicateGen/ReplicateGen.node.js"
+		]
 	},
 	"devDependencies": {
 		"@types/express": "^4.17.6",
+		"@types/node": "^22.7.5",
 		"@types/request-promise-native": "~1.0.15",
 		"@typescript-eslint/parser": "~5.45",
 		"eslint-plugin-n8n-nodes-base": "^1.11.0",
