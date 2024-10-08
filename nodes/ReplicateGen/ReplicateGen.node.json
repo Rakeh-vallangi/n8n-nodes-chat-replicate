@@ -2,7 +2,11 @@
 	"node": "n8n-nodes-replicate.ReplicateGen",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
-	"categories": ["Miscellaneous"],
+	"categories": ["AI"],
+	"subcategories": {
+		"AI": ["Language Models", "Root Nodes"],
+		"Language Models": ["Chat Models (Recommended)"]
+	},
 	"resources": {
 		"credentialDocumentation": [
 			{
