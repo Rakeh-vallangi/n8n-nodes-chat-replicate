@@ -1,5 +1,5 @@
 {
-	"node": "n8n-nodes-replicate.ReplicateGen",
+	"node": "n8n-nodes-chat-replicate.ReplicateGen",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
 	"categories": ["AI"],

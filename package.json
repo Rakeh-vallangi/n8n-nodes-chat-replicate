@@ -1,5 +1,5 @@
 {
-	"name": "n8n-nodes-replicate",
+	"name": "n8n-nodes-chat-replicate",
 	"version": "0.1.2",
 	"description": "A n8n node for replicate.com",
 	"keywords": [
@@ -11,12 +11,12 @@
 	"license": "MIT",
 	"homepage": "",
 	"author": {
-		"name": "Michaël de Marliave",
-		"email": "micode@micorp.studio"
+		"name": "Rakesh Vallangi",
+		"email": "rakeshvallangi@gmail.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/michael-dm/n8n-nodes-replicate.git"
+		"url": "https://github.com/Rakeh-vallangi/n8n-nodes-chat-replicate.git"
 	},
 	"main": "index.js",
 	"scripts": {
